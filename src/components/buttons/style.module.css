@@ -44,6 +44,8 @@
 	transform: translate3d(0,-100%,0);
 }
 
+/*--------------------------------------------- button-2 */
+
 
 .typebutton-2 {
 	font-family: aktiv-grotesk-extended, sans-serif;
@@ -67,4 +69,64 @@
 
 .typebutton-2:hover::before {
 	transform: translate3d(0,100%,0);
+}
+
+/*--------------------------------------------- button-3 */
+
+.typebutton-3 {
+	font-family: aktiv-grotesk-extended, sans-serif;
+	font-weight: 700;
+	border: 1px solid #000;
+	border-radius: 50%;
+	overflow: hidden;
+    width: 100px;
+    height: 100px;
+    aspect-ratio: 1/1;
+	color: #fff;
+    padding: 0;
+}
+
+.typebutton-3 span {
+	position: relative;
+	mix-blend-mode: difference;
+}
+
+.typebutton-3::before {
+	content: '';
+	background: #003566;
+	transition: transform 0.3s cubic-bezier(0.7, 0, 0.2, 1);
+}
+
+.typebutton-3:hover::before {
+	transform: translate3d(100%,0,0);
+}
+
+/*--------------------------------------------- button-4 */
+
+.typebutton-4 {
+	font-family: aktiv-grotesk-extended, sans-serif;
+	font-weight: 700;
+	border: 1px solid #000;
+	border-radius: 50%;
+	overflow: hidden;
+    width: 100px;
+    height: 100px;
+    aspect-ratio: 1/1;
+	color: #fff;
+    padding: 0;
+}
+
+.typebutton-4 span {
+	position: relative;
+	mix-blend-mode: difference;
+}
+
+.typebutton-4::before {
+	content: '';
+	background: #003566;
+	transition: transform 0.3s cubic-bezier(0.7, 0, 0.2, 1);
+}
+
+.typebutton-4:hover::before {
+	transform: translate3d(-100%,0,0);
 }

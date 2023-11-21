@@ -3,7 +3,7 @@ import { ReactNode } from "react";
 import styles from "./style.module.css";
 import clsx from "clsx";
 
-export type TypeButton = "button-1" | "button-2" | "Blue" | "YellowPink";
+export type TypeButton = "button-1" | "button-2" | "button-3" | "button-4";
 
 interface ArtButtonProps {
   onClick?: () => void;

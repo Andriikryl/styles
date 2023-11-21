@@ -12,3 +12,10 @@ margin-block: 20px;
     background-color: #d62828;
     border: 1px solid black;
 }
+
+.button__box{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}
