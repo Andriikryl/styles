@@ -1,0 +1,25 @@
+.hero{
+    margin-block: 20px;
+}
+.hero__box{
+    box-shadow: 7px 10px 0px 3px rgba(0,0,0,1);
+    -webkit-box-shadow: 7px 10px 0px 3px rgba(0,0,0,1);
+    -moz-box-shadow: 7px 10px 0px 3px rgba(0,0,0,1);
+    border-radius: 10px;
+    padding: 20px;
+    color: #fff;
+    background-color: #ffc300;
+    border: 1px solid black;
+}
+
+.hero__title{
+    font-size: clamp(20px, 5vw + 1rem, 40px);
+    text-transform: uppercase;
+    text-align: center;
+    margin-block-end: 20px;
+}
+
+.hero__description{
+    text-align: center;
+    margin-block-end: 20px;
+}
